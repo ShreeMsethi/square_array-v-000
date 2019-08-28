@@ -1,3 +1,4 @@
+require 'pry'
 numbers_to_square = [1, 2,  3,  4,  5]
 
 
@@ -8,7 +9,7 @@ def square_array(array)
   end
   squared_numbers
 end
-
+binding.pry
 square_array(numbers_to_square)
 
 
